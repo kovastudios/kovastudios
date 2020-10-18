@@ -53,8 +53,9 @@
     }
 
     img {
+      min-width: 300px;
       max-width: 25%;
-      max-height: 25%;
+      height: auto;
       filter: gray;
       /* IE6-9 */
       -webkit-filter: grayscale(1);
@@ -65,9 +66,10 @@
     }
 
     /* Disable grayscale on hover */
-    img:hover {
-      max-width: 35%;
-      max-height: 35%;
+    img:hover, img:active{
+      min-width: 300px;
+      max-width: 30%;
+      max-height: auto;
       -webkit-filter: grayscale(0);
       filter: none;
     }
