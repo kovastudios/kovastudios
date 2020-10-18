@@ -6,6 +6,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="kova.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
   <style type="text/css">
     body {
       /*background: linear-gradient(90deg, white, gray);*/
@@ -37,21 +38,6 @@
       content: " ";
     }
 
-    a {
-      background: url('kova_icon-greysacle.png');
-      width: 20%;
-      height: 20%;
-      display: block;
-      /* Optional for a gradual animation effect */
-      transition: 0.5s;
-    }
-
-    a:hover {
-      background: url('kova_icon.png');
-      width: 20%;
-      height: 20%;
-    }
-
     img {
       min-width: 200px;
       max-width: 25%;
@@ -67,7 +53,8 @@
     }
 
     /* Disable grayscale on hover */
-    img:hover, img:active{
+    img:hover,
+    img:active {
       min-width: 275px;
       max-width: 30%;
       max-height: auto;
@@ -95,6 +82,43 @@
       color: #3282e6;
       text-decoration: none;
     }
+
+    .fa-twitter {
+      padding-left: 15px;
+      color: rgb(117, 120, 139);
+      max-height: auto;
+      transition: 0.5s;
+      -webkit-transition: 0.5s;
+    }
+    .fa-twitter:hover {
+      padding-left: 15px;
+      color: rgb(92, 111, 240);
+      max-height: auto;
+    }
+    .fa-itch-io {
+      padding-left: 15px;
+      color: rgb(117, 120, 139);
+      max-height: auto;
+      transition: 0.5s;
+      -webkit-transition: 0.5s;
+    }
+    .fa-itch-io:hover {
+      padding-left: 15px;
+      color: rgb(212, 43, 31);
+      max-height: auto;
+    }
+    .fa-github {
+      padding-left: 15px;
+      color: rgb(117, 120, 139);
+      max-height: auto;
+      transition: 0.5s;
+      -webkit-transition: 0.5s;
+    }
+    .fa-github:hover {
+      padding-left: 15px;
+      color: rgb(27, 25, 25);
+      max-height: auto;
+    }
   </style>
 </head>
 
@@ -107,6 +131,9 @@
           <img id="logo" src="kova_icon.png"></a>
         </div>
         <h1><b>kova</b> studios</h1>
+        <a href="https://twitter.com/kovastudio"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="http://kovastudios.itch.io"><i class="fab fa-itch-io fa-2x"></i></a>
+        <a href="http://github.com/kovastudios"><i class="fab fa-github fa-2x"></i></a>
       </div>
     </div>
   </div>
