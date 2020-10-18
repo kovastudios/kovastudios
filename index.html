@@ -1,73 +1,113 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>kova studios</title>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" >
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="shortcut icon" href="kova-favicon.ico" type="image/x-icon">
-<style type="text/css">
-body {
-  /*background: linear-gradient(90deg, white, gray);*/
-  background-color:#eee;
-}
+  <title>kova studios</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="kova.ico" type="image/x-icon">
+  <style type="text/css">
+    body {
+      /*background: linear-gradient(90deg, white, gray);*/
+      background-color: #eee;
+    }
 
-body, h1, p {
-  font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: normal;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
+    body,
+    h1,
+    p {
+      font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-weight: normal;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
 
-.container {
-  margin-left:  auto;
-  margin-right:  auto;
-  margin-top: 177px;
-  max-width: 1170px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
+    .container {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 177px;
+      max-width: 1170px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
 
-.row:before, .row:after {
-  display: table;
-  content: " ";
-}
+    .row:before,
+    .row:after {
+      display: table;
+      content: " ";
+    }
 
-h1 {
-  font-size: 48px;
-  font-weight: 300;
-  margin: 0 0 20px 0;
-}
+    a {
+      background: url('kova_icon-greysacle.png');
+      width: 20%;
+      height: 20%;
+      display: block;
+      /* Optional for a gradual animation effect */
+      transition: 0.5s;
+    }
 
-.lead {
-  font-size: 21px;
-  font-weight: 200;
-  margin-bottom: 20px;
-}
+    a:hover {
+      background: url('kova_icon.png');
+      width: 20%;
+      height: 20%;
+    }
 
-p {
-  margin: 0 0 10px;
-}
+    img {
+      width: 20%;
+      height: 20%;
+      filter: gray;
+      /* IE6-9 */
+      -webkit-filter: grayscale(1);
+      /* Google Chrome, Safari 6+ & Opera 15+ */
+      filter: grayscale(1);
+      /* Microsoft Edge and Firefox 35+ */
+      transition: 0.5s;
+    }
 
-a {
-  color: #3282e6;
-  text-decoration: none;
-}
-</style>
+    /* Disable grayscale on hover */
+    img:hover {
+      width: 30%;
+      height: 30%;
+      -webkit-filter: grayscale(0);
+      filter: none;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: 300;
+      margin: 0 0 20px 0;
+    }
+
+    .lead {
+      font-size: 21px;
+      font-weight: 200;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin: 0 0 10px;
+    }
+
+    a {
+      color: #3282e6;
+      text-decoration: none;
+    }
+  </style>
 </head>
 
 <body>
-<div class="container text-center" id="error">
+  <div class="container text-center" id="error">
 
-  <div class="row">
-    <div class="col-md-12">
-      <div class="main-icon text-success">
-        
+    <div class="row">
+      <div class="col-md-12">
+        <div>
+          <img id="logo" src="kova_icon.png"></a>
+        </div>
+        <h1><b>kova</b> studios</h1>
       </div>
-      <h1><img src="kova.ico" alt="kova"> <b>kova.</b></h1>
     </div>
   </div>
-</div>
 
 </body>
+
 </html>
